@@ -97,6 +97,9 @@ const startCountdown = () => {
     for (const entry of data) {
       answer = parseInt(entry[1]);
     };
+    console.log('answer:', answer)
+    console.log('correct:', correct)
+
 
     if (answer === correct) correctAnswers++;
     else substractFromTimer();
