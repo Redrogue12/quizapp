@@ -87,12 +87,12 @@ const substractFromTimer = () => {
 const startCountdown = () => {
   countDownDate = new Date(new Date().getTime() + timerInMinutes*60000);
   const form = document.querySelector("form");
-  const { correct } = questions[current];
   countdown = setInterval(countdownHelper, 1000);
   
   form.addEventListener("submit", event => {
     event.preventDefault();
     const data = new FormData(form);
+    const { correct } = questions[current];
     let answer = "";
     for (const entry of data) {
       answer = parseInt(entry[1]);
