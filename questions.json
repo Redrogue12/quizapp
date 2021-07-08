@@ -41,7 +41,7 @@
   },
   {
     "question": "5. Which is faster between JavaScript and an ASP script?",
-    "correct": "1",
+    "correct": 1,
     "answers": [
       "fwefw",
       "JavaScript is faster. JavaScript is a client-side language,, and thus it does not need the assistance of the webserver to execute. On the other hand, ASP is a server-side language and hence is always slower than JavaScript. Javascript now is also a server-side language (nodejs).",
