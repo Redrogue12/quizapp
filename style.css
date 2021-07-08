@@ -1,0 +1,8 @@
+label {
+  display: contents;
+}
+
+#timer {
+  font-size: 28px;
+  float: right;
+}
